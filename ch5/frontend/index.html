@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>OAuth 2.0 Playground</title>
-    <script type="text/javascript" src="KC_URL/js/keycloak.js"></script>
     <script type="text/javascript">
         var serviceUrl = 'SERVICE_URL';
     </script>
@@ -23,7 +22,7 @@
 <div id="step-discovery" style="display: none;">
     <h2>Discovery</h2>
     <p>
-        <label>Issuer</label><input id="input-issuer" value="http://localhost:8080/realms/myrealm">
+        <label>Issuer</label><input id="input-issuer" value="KC_URL/realms/packt-realm">
     </p>
     <p>
         <button onclick="loadDiscovery()">Load OAuth 2.0 Provider Configuration</button>
