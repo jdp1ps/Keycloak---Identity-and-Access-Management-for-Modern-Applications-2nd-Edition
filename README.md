@@ -1,3 +1,14 @@
+> [!WARNING]
+> **This is a modified fork, updated to work with Keycloak 26.**
+> The code examples in this repository have been adapted to run against Keycloak 26 (the book targets Keycloak 22).
+> Start Keycloak with:
+>
+> ```bash
+> docker run -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin -p 8080:8080 keycloak/keycloak:26.7 start-dev
+> ```
+>
+> The original, unmodified repository is at [PacktPublishing/Keycloak---Identity-and-Access-Management-for-Modern-Applications-2nd-Edition](https://github.com/PacktPublishing/Keycloak---Identity-and-Access-Management-for-Modern-Applications-2nd-Edition).
+
 # Keycloak - Identity and Access Management for Modern Applications, Second Edition
 This is the code repository for [Keycloak - Identity and Access Management for Modern Applications, Second Edition](https://www.packtpub.com/product/keycloak-identity-and-access-management-for-modern-applications-second-edition/9781804616444), published by Packt.
 
